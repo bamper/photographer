@@ -23,15 +23,17 @@ class Router
             'controller' => 'MainController',
             'method' => 'portfolio'
         ),
+        '/contact/' => array(
+            'controller' => 'MainController',
+            'method' => 'contact'
+        )
     );
 
     public static function route()
     {
-        $call = self::$route_array[$_SERVER['QUERY_STRING']];
-        if(!empty($call))
-        {
-            $controller = new $call['controller']();
-            $controller->$call['method']();
-        }
+        $call = self::$route_array[$_SERVER['REQUEST_URI']];
+        $controller = new $call['controller']();
+        $controller->$call['method']();
+
     }
 }

@@ -5,14 +5,15 @@ class MainController extends Controller
 
     public function main()
     {
-
+        $view = new View();
+        $view->assign('test', 'view');
+        $view->display('view/main/index.php');
     }
 
     public function index()
     {
         $view = new View();
-        $view->assign('test', 'view');
-        $view->display('view/main/index.php');
+        $view->display('view/brand.php');
     }
 
     public function about()
@@ -21,6 +22,11 @@ class MainController extends Controller
     }
 
     public function portfolio()
+    {
+
+    }
+
+    public function contact()
     {
 
     }
