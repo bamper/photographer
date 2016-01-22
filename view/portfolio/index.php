@@ -15,6 +15,8 @@
 
     <!-- Custom CSS -->
     <link href="/public/css/clean-blog.min.css" rel="stylesheet">
+    <link href="/public/css/viewer.css" rel="stylesheet">
+    <link href="/public/css/main.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -49,14 +51,14 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right" >
+                <li>
+                    <a style="color: #000000;" href="/portfolio/">Портфолио</a>
+                </li>
                 <li class="" >
                     <a style="color: #000000;" href="/main/">Главная</a>
                 </li>
                 <li>
                     <a style="color: #000000;" href="/about/">О нас</a>
-                </li>
-                <li>
-                    <a style="color: #000000;" href="/portfolio/">Портфолио</a>
                 </li>
                 <li>
                     <a style="color: #000000;" href="/contact/">Контакты</a>
@@ -87,17 +89,21 @@
 <!-- Main Content -->
 <div class="container">
     <div class="row">
-        <div class="col col-lg-9">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
-            aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-            eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
-            consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
-            voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea
-            commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel
-            illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+        <div class="col-sm-8 col-md-6">
+            <div class="docs-galley">
+                <ul class="docs-pictures">
+                    <li><img data-original="/public/img/emma-watson-1.jpg" src="/public/img/thumbnails/emma-watson-1.jpg"></li>
+                    <li><img data-original="/public/img/emma-watson-2.jpg" src="/public/img/thumbnails/emma-watson-2.jpg"></li>
+                    <li><img data-original="/public/img/emma-watson-3.jpg" src="/public/img/thumbnails/emma-watson-3.jpg"></li>
+                    <li><img data-original="/public/img/emma-watson-4.jpg" src="/public/img/thumbnails/emma-watson-4.jpg"></li>
+                    <li><img data-original="/public/img/emma-watson-5.jpg" src="/public/img/thumbnails/emma-watson-5.jpg"></li>
+                    <li><img data-original="/public/img/emma-watson-6.jpg" src="/public/img/thumbnails/emma-watson-6.jpg"></li>
+                    <li><img data-original="/public/img/emma-watson-7.jpg" src="/public/img/thumbnails/emma-watson-7.jpg"></li>
+                    <li><img data-original="/public/img/emma-watson-8.jpg" src="/public/img/thumbnails/emma-watson-8.jpg"></li>
+                    <li><img data-original="/public/img/emma-watson-9.jpg" src="/public/img/thumbnails/emma-watson-9.jpg"></li>
+                </ul>
+            </div>
         </div>
-    </div>
 </div>
 
 <hr>
@@ -140,6 +146,8 @@
 
 <!-- Custom Theme JavaScript -->
 <script src="/public/js/clean-blog.min.js"></script>
+<script src="/public/js/viewer.js"></script>
+<script src="/public/js/main.js"></script>
 
 </body>
 

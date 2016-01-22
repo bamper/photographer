@@ -4,7 +4,8 @@ class Loader
 {
     public static $dirs = array(
         'classes/',
-        'classes/controllers/'
+        'classes/controllers/',
+        'classes/models/'
     );
 
     public static function load()

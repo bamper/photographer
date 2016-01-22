@@ -5,9 +5,7 @@ class MainController extends Controller
 
     public function main()
     {
-        $view = new View();
-        $view->assign('test', 'view');
-        $view->display('view/main/index.php');
+
     }
 
     public function index()
@@ -23,7 +21,9 @@ class MainController extends Controller
 
     public function portfolio()
     {
-
+        $view = new View();
+        $view->assign('test', 'view');
+        $view->display('view/portfolio/index.php');
     }
 
     public function contact()
