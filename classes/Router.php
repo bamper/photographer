@@ -26,7 +26,19 @@ class Router
         '/contact/' => array(
             'controller' => 'MainController',
             'method' => 'contact'
-        )
+        ),
+        '/control/' => array(
+            'controller' => 'AdminController',
+            'method' => 'control'
+        ),
+        '/login/' => array(
+            'controller' => 'AdminController',
+            'method' => 'login'
+        ),
+        '/admin/' => array(
+            'controller' => 'AdminController',
+            'method' => 'admin'
+        ),
     );
 
     public static function route()

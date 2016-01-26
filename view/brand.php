@@ -32,7 +32,7 @@
 <body>
     <div class="container container-fluid">
         <div id="content">
-            <a href="/index.php/main/"><img src="/public/img/brand_content.png"></a>
+            <a href="/index.php/portfolio/"><img src="/public/img/brand_content.png"></a>
         </div>
     </div>
 <script type="application/javascript" src="/public/js/jquery.js"></script>
