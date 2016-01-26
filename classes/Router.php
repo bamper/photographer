@@ -31,7 +31,8 @@ class Router
 
     public static function route()
     {
-        $call = self::$route_array[$_SERVER['REQUEST_URI']];
+        $router = str_replace('/index.php', '', $_SERVER['REQUEST_URI']);
+        $call = self::$route_array[$router];
         $controller = new $call['controller']();
         $controller->$call['method']();
 
