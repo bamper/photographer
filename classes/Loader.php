@@ -5,7 +5,8 @@ class Loader
     public static $dirs = array(
         'classes/',
         'classes/controllers/',
-        'classes/models/'
+        'classes/models/',
+        'classes/core/'
     );
 
     public static function load()

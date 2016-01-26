@@ -5,10 +5,7 @@ class MainController extends Controller
 
     public function main()
     {
-        $album = new Album();
-        $album->newAlbum('test', [
-            '1.jpg', '2.jpg', '3.jpg'
-        ])->parse()->show();
+        $al = new Album();
     }
 
     public function index()

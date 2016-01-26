@@ -52,16 +52,16 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right" >
                 <li>
-                    <a style="color: #000000;" href="/portfolio/">Портфолио</a>
+                    <a style="color: #000000;" href="/index.php/portfolio/">Портфолио</a>
                 </li>
                 <li class="" >
-                    <a style="color: #000000;" href="/main/">Главная</a>
+                    <a style="color: #000000;" href="/index.php/main/">Главная</a>
                 </li>
                 <li>
-                    <a style="color: #000000;" href="/about/">О нас</a>
+                    <a style="color: #000000;" href="/index.php/about/">О нас</a>
                 </li>
                 <li>
-                    <a style="color: #000000;" href="/contact/">Контакты</a>
+                    <a style="color: #000000;" href="/index.php/contact/">Контакты</a>
                 </li>
             </ul>
         </div>
